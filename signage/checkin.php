@@ -144,8 +144,8 @@ print_r($outputarray);
 
 curl_close($ch);   
 
-$homepagefile='/home/user/settings/homepage.txt';
-$chromeargumentsfile='/home/user/settings/chrome-arguments.txt';
+$homepagefile='/home/pi/settings/homepage.txt';
+$chromeargumentsfile='/home/pi/settings/chrome-arguments.txt';
 
 
 
