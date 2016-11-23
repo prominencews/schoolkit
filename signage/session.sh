@@ -1,5 +1,9 @@
 #!/bin/bash
 
+xset s noblank
+xset s off
+xset -dpms
+
 x11vnc -rfbauth ~/schoolkit/signage/passwd -forever &
 
 while true; do
